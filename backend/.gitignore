@@ -1,0 +1,40 @@
+
+# deps & caches
+node_modules/
+.pnp/
+.pnp.js
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# logs & runtime
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# build outputs (ts/babel/webpack)
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# uploads/temp (uncomment if you generate these)
+# tmp/
+# uploads/
+
+# env (do NOT commit secrets)
+.env
+.env.*
+!.env.example
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
